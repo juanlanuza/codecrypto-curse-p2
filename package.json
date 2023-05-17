@@ -1,0 +1,44 @@
+{
+  "name": "blockchain-training",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@rainbow-me/rainbowkit": "^0.12.4",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@superfluid-finance/sdk-core": "^0.6.3",
+    "@superfluid-finance/sdk-redux": "^0.4.0",
+    "@wagmi/chains": "^0.2.15",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "metamask-react": "^2.6.0",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-redux": "^8.0.5",
+    "typescript": "5.0.2",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.192",
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.30",
+    "@types/react-dom": "18.0.11",
+    "prettier": "^2.8.7"
+  }
+}
